@@ -1,0 +1,9 @@
+format: jb-book
+root: intro
+chapters:
+- file: literature_review
+- file: methodology
+- file: results
+- file: discussion
+- file: conclusion
+- file: appendix

@@ -1,0 +1,27 @@
+title: "Impact of Early Autism Diagnosis on Long-term Outcomes"
+author: Marli & Max Ghenis
+copyright: "2025"
+logo: ""
+
+execute:
+  execute_notebooks: auto
+
+repository:
+  url: https://github.com/maxghenis/autism-diagnosis
+  path_to_book: paper
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+latex:
+  latex_documents:
+    targetname: autism_diagnosis_paper.tex
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.bibtex
+  config:
+    bibtex_bibfiles:
+      - references.bib
